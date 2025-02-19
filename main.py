@@ -9,7 +9,7 @@ import config  # Import the config module
 def init_game():
     pygame.init()
     screen = pygame.display.set_mode((config.WINDOW_WIDTH, config.WINDOW_HEIGHT))  # Use constants from config
-    pygame.display.set_caption(TITLE)
+    pygame.display.set_caption(config.TITLE)
     return screen
 
 def handle_events():
