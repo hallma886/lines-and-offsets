@@ -22,12 +22,8 @@ def handle_events():
     return True  # Continue running if no quit event
 
 def main():
-
     screen = init_game()  # Initialize the game and get the screen
     clock = pygame.time.Clock() # Initialize the clock objecct
-    
-
- 
     # Main game loop
     running = True
     while running:
